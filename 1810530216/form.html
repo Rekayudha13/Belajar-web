@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form</title>
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+</head>
+<style>
+    textarea {
+        resize: none;
+    }
+</style>
+<body>
+    <h2 class="alert alert-primary">Form Biodata</h2>
+    <hr>
+
+    <table>
+        <form method="post" action="#">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><label>NIM</label></td>
+                    <td>:</td>
+                    <td><input type="text" name="txtnim" size="20" maxlength="10" placeholder="Masukkan Nim"></td>
+                </tr>
+                <tr>
+                    <td><label>NAMA</label></td>
+                    <td>:</td>
+                    <td><input type="text" name="txtnama" placeholder="Masukkan Nama"></td>
+                </tr>
+                <tr>
+                    <td><label for="">JENIS KELAMIN</label></td></td>
+                    <td>:</td>
+                    <td><input type="radio" value="L" name="jk"> Laki-Laki
+                        <input type="radio" value="p" name="jk1"> Perempuan</td>
+                    </tr>
+                    <tr>
+                        <td><label for="">JURUSAN</label></td>
+                        <td>:</td>
+                        <td><select name="optjurusan" id="">
+                            <option value="d3ti">-Pilih-</option>
+                            <option value="d3ti">D3 TI</option>
+                            <option value="d3mi">D3 MI</option>
+                            <option value="d3mi">S1 TI</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td><label>HOBBY</label></td>
+                        <td>:</td>
+                        <td><input type="checkbox" name="ckhobi">Komputer
+                            <input type="checkbox" name="ckhobi">Musik
+                            <input type="checkbox" name="ckhobi">Olahraga
+                            <input type="checkbox" name="ckhobi">Travelling</td>
+                        </tr>
+                        <tr>
+                            <td><label>CATATAN</label></td>
+                            <td>:</td>
+                            <td><textarea name="txtcatatan" cols="70" rows="10"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td><label>FOTO</label></td>
+                            <td>:</td>
+                            <td><input type="file" name="foto" accept=".jpeg,.jpg,.png"></td>
+                        </tr>
+                        <tr>
+                            <td><label>EMAIL</label></td>
+                            <td>:</td>
+                            <td><input type="Email" name="txtemail" placeholder="Masukkan Email"></td>
+                        </tr>
+                        <tr>
+                            <td><label>SANDI LOGIN</label></td>
+                            <td>:</td>
+                            <td><input type="Password" name="txtemail" placeholder="Masukkan Sandi"></td>
+                        </tr>
+                        <tr>
+                            <td><label>ULANGI SANDI LOGIN</label></td>
+                            <td>:</td>
+                            <td><input type="Password" name="txtemail" placeholder="Masukkan Ulang Sandi"></td><br>
+                            
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td><input type="button" name="btnsimpan" value="Simpan">
+                                <input type="button" name="btnbatal" value="Batal">
+                                <input type="button" name="btnperingatan" value="Peringatan"></td>
+                            </tr>   
+                        </tbody>
+                    </form> 
+                </table>
+
+            </body>
+            </html>
